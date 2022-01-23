@@ -1,0 +1,61 @@
+.avatar {
+  display: inline-block;
+  width: 15%;
+  height: auto;
+}
+.username {
+  display: inline-block;
+}
+
+.date {
+  display: inline-block;
+}
+
+.replybtn {
+  display: inline-block;
+}
+.likes {
+  display: block;
+  float: left;
+}
+
+.avatar1 {
+  display: inline-block;
+  width: 15%;
+  height: auto;
+}
+.username1 {
+  display: inline-block;
+}
+
+.date1 {
+  display: inline-block;
+}
+
+.replybtn1 {
+  display: inline-block;
+}
+.likes1 {
+  display: block;
+  float: left;
+}
+
+.reply-wrapper {
+  background-color: grey;
+  margin: 10px 0 10px 30px;
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.myryplies {
+  background-color: rgb(167, 165, 165);
+  margin: 10px 0 10px 30px;
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.rpl-text textarea {
+  width: 100%;
+  border: 1px dashed red;
+  margin-top: 5px;
+}

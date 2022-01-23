@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="flex-container">
+        <div class="likes">
+            <button>+</button>
+            <span>score</span>
+            <button>-</button>
+        </div>
+
+        <div class="user-info">
+            <div class="avatar" >
+                <img class="avatars" src="user.image.png" />
+            </div>
+            <div class="username">
+                <span>user.user.username</span>
+            
+            </div>
+            <div class="date">
+                <span>user.createdAt</span>        
+            
+            </div>
+            <div class="replybtn">
+                <img class="replyicon" src="./images/icon-reply.svg" />
+                <button class="btn">reply</button>           
+            
+            </div>
+        
+            <div class="content">
+                <span>user.content</span>
+            </div>
+        </div>
+        
+    </div>
+
+    <div>
+        <input type="text"> 
+    </div>
+
+</body>
+
+</html>
+
+
+
+let html = `<div class="wrapper">
+    <div class="flex-container">
+
+        <div class="user-info1">
+            <div class="avatar1">
+                <img class="avatars" src=${cloneData.default.currentUser.image.png} />
+            </div>
+            <div class="username1">
+                <span>${cloneData.default.currentUser.username}</span>
+
+            </div>
+            <div class="date1">
+                <span></span>
+            </div>
+            <div class="rpl-text">
+            <input type="text">
+            </div>
+            <div>
+        </div>
+    </div>
+</div>`
+
+
+
+
+<div class="wrapper reply-wrapper" id="${info.id}">
+    <div class="flex-container">
+    <div class="likes">
+        <button class="plus">+</button>
+        <span>${info.score}</span>
+        <button class="minus">-</button>
+    </div>
+    <div class="user-info1">
+    <div class="avatar1">
+        <img class="avatars"  src=${info.user.image.png} />
+    </div>
+    <div class="username1">
+        <span>${info.user.username} </span>
+
+    </div>
+    <div class="date1">
+        <span>${info.createdAt}</span>        
+
+    </div>
+                <div class="replybtn1">
+            <img class="replyicon1" src="./images/icon-reply.svg" />
+            <button class="btn1">reply</button>           
+
+        </div>
+
+    <div class="content1">
+        <span>${info.content}</span>
+    </div>
+
+</div>
+
+</div> `
+
+
+<textarea ></textarea>
